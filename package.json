@@ -1,6 +1,6 @@
 {
   "name": "json-make-html",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A small package for converting json to html no matter how deeply nested the objects are. There are a few style options you can apply.",
   "homepage": "https://github.com/adamgedney/json-make-html",
   "author": {
@@ -15,10 +15,9 @@
   "main": "./json-make-html.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamgedney/json-make-html"
+    "url": "git+https://github.com/adamgedney/json-make-html.git"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "bugs": {
     "url": "ttps://github.com/adamgedney/json-make-html/issues"
   },
@@ -28,5 +27,12 @@
       "email": "adam@adamgedney.com"
     }
   ],
-  "directories": {}
+  "directories": {},
+  "readme": "## Description\nA small package for converting json to html no matter how deeply nested the objects are. There are a few styling options you can apply.\n\nDownload the package from npm:\n    https://www.npmjs.com/package/json-make-html\n\n\n## Installation\n\n    npm install -S json-make-html\n\n## Quick Start\n\n There is only 1 endpoint in this package:\n\n    Convert your JSON object to HTML\n    make(json,args,function(html){});\n\n## Usage:\n\n    var jsonMakeHTML = require('json-make-html');\n    var html = jsonMakeHTML.make(json,args, function(html){});\n    \n    Note: The callback function is optional. The make method with return the html or pass it through the callback.\n\n\n## Returns\n\n   Your JSON object in HTML form according to the options you specified.\n   \n   \n## Options\n\n    var args = {\n            separator : ': ',\n            iterator : 1,\n            wrapper : {\n                before : '',\n                class : 'jsonhtml',\n                elem : 'ul',\n                after : ''\n            },\n            child : {\n                before : '',\n                class : 'jsonhtml__singlechild',\n                elem : 'li',\n                titleClass : 'jsonhtml__parent',\n                titleElem : 'h3',\n                after : ''\n            },\n            css :{\n                title : 'margin: 9px 0 0;color:#BA584C;',\n                wrapperElem : '',\n                childElem : 'list-style-type:none;',\n                childElemNested : 'margin-left: 18px;'\n            }\n    \n        };\n\n## Contributors\n    \n    Adam Gedney\n\n\n## License\n\nMIT\n",
+  "readmeFilename": "Readme.md",
+  "gitHead": "45dccb59f1402954e696eed996566e31ff189bea",
+  "_id": "json-make-html@1.0.6",
+  "scripts": {},
+  "_shasum": "81ef8b5d8dd35d9a4d687b9117271e50cae080b4",
+  "_from": "json-make-html@1.0.6"
 }
