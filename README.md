@@ -33,11 +33,8 @@ Download the package from npm:
 
     ```
     var args = {
-            object : data,
-            isNest : false,
             separator : ': ',
             iterator : 1,
-            html : '',
             wrapper : {
                 before : '',
                 class : 'jsonhtml',

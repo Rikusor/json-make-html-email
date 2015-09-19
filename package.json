@@ -1,6 +1,6 @@
 {
   "name": "json-make-html",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A small package for converting json to html no matter how deeply nested the objects are. There are a few style options you can apply.",
   "homepage": "https://github.com/adamgedney/json-make-html",
   "author": {
