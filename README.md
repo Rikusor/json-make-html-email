@@ -31,7 +31,6 @@ Download the package from npm:
    
 ## Options
 
-    ```
     var args = {
             separator : ': ',
             iterator : 1,
@@ -57,7 +56,6 @@ Download the package from npm:
             }
     
         };
-    ```
 
 ## Contributors
     
