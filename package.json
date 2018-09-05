@@ -1,6 +1,6 @@
 {
   "name": "json-make-html-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small package for converting json to html email no matter how deeply nested the objects are. There are a few style options you can apply.",
   "homepage": "https://github.com/Rikusor/json-make-html-email",
   "author": {
