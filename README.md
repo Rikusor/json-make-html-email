@@ -1,13 +1,12 @@
 ## Description
-A small package for converting json to html no matter how deeply nested the objects are. There are a few styling options you can apply.
+A small package for converting json to html email no matter how deeply nested the objects are. There are a few styling options you can apply.
 
-Download the package from npm:
-    https://www.npmjs.com/package/json-make-html
-
+Fork of https://www.npmjs.com/package/json-make-html designed and styled to be HTML email content:
+    
 
 ## Installation
 
-    npm install -S json-make-html
+    npm install -S json-make-html-email
 
 ## Quick Start
 
@@ -18,8 +17,8 @@ Download the package from npm:
 
 ## Usage:
 
-    var jsonMakeHTML = require('json-make-html');
-    var html = jsonMakeHTML.make(json,args, function(html){});
+    const jsonMakeHTML = require('json-make-html-email');
+    const html = jsonMakeHTML.make(json,args, function(html){});
     
     Note: The callback function is optional. The make method with return the html or pass it through the callback.
 
@@ -56,10 +55,6 @@ Download the package from npm:
             }
     
         };
-
-## Contributors
-    
-    Adam Gedney
 
 
 ## License
